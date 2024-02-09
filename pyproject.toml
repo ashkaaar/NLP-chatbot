@@ -7,6 +7,8 @@ authors = ["Andrei"]
 [tool.poetry.dependencies]
 python = "^3.8"
 openfabric-pysdk = "0.2.7"
+transformers = "^4.37.2"
+pandas = "1.3.4"
 
 
 [tool.poetry.dev-dependencies]
