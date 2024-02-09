@@ -7,3 +7,12 @@ The `execute` function, called on each execution pass, takes user input, process
 The chatbot leverages techniques such as tokenization and generation to ensure accurate and comprehensive answers.
 
 Additionally, the `app.py` file contains the Streamlit user interface for accessing the `execute` function defined in `main.py`, in accordance with the project requirements.
+
+The custom dataset used for training the ChatGPT model is located in the `/NOTEBOOKS` directory. This dataset was meticulously crafted to capture a wide range of conversational scenarios, ensuring the model's adaptability to diverse user inputs.
+
+Following rigorous training, the fine-tuned model is stored in the `/MODELS` directory. This model has been optimized to deliver precise and contextually relevant responses, tailored specifically to the domain of the provided dataset.
+
+The original data used for training and validation purposes is stored in the `/DATA` directory. This data forms the foundation upon which the model learns and refines its understanding of the conversational domain.
+
+Upon completion of the fine-tuning process, the results are documented in the `/RESULTS` directory. These results provide insights into the performance and effectiveness of the fine-tuned model, serving as a valuable resource for evaluation and further refinement.
+
