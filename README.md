@@ -12,7 +12,7 @@ When creating an NLP chatbot, there are several strategies to consider:
 
 ### Preferred Approach
 
-Given the task of developing a chatbot to address science-related inquiries, we opted for a hybrid approach. 
+Given the task of developing a chatbot to address science-related inquiries, we opted for:
 
 - **Fine-tuned Pretrained Model**: We fine-tuned a DialoGPT model on science-related data to ensure contextually relevant responses.
 
