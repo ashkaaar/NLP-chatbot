@@ -24,7 +24,7 @@ Given the task of developing a chatbot to tackle science-related inquiries, I op
 
 ### Execute Function Overview
 
-The `execute` function in `main.py` acts as the chatbot's core component. It analyzes user input, applies relevant rules or models, and generates appropriate responses. This function undergoes continuous refinement to enhance the chatbot's performance and accuracy.
+The `execute` function in `main.py` acts as the chatbot's core component. It analyzes user input, applies relevant rules or models, and generates appropriate responses. This function can undergoe continuous refinement to enhance the chatbot's performance and accuracy.
 
 ### Development Guidelines
 
