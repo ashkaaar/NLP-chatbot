@@ -5,3 +5,5 @@ The chatbot utilizes a pre-trained DialoGPT model fine-tuned specifically for sc
 The `execute` function, called on each execution pass, takes user input, processes it using the fine-tuned model, and generates a response tailored to science education. 
 
 The chatbot leverages techniques such as tokenization and generation to ensure accurate and comprehensive answers.
+
+Additionally, the `app.py` file contains the Streamlit user interface for accessing the `execute` function defined in `main.py`, in accordance with the project requirements.
