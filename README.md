@@ -1,5 +1,5 @@
 ## Demo
-<img src="demo.gif" width="800">
+![Demo](demo.gif)
 
 ## Explanation Video
 The explanation video can be found [Here](videolink)
