@@ -1,7 +1,8 @@
 ## Demo
-    ![Demo](demo.gif)
+![Demo](demo.gif)
 
-## Explaintion video can be found ![Here](videolink)
+## Explanation Video
+The explanation video can be found [Here](videolink)
 
 ## NLP Chatbot Setup Details
 
@@ -20,8 +21,6 @@ When creating an NLP chatbot, developers have various strategies at their dispos
 Given the task of developing a chatbot to tackle science-related inquiries, we opted for a hybrid approach.
 
 - **Fine-tuned Pretrained Model**: We chose to fine-tune a DialoGPT model on science-related data to ensure contextually relevant responses. This involves training the pretrained DialoGPT model on a custom dataset specifically curated for science-related queries. By fine-tuning the model, we adapt it to understand and generate responses tailored to scientific topics, ensuring accuracy and relevance in its interactions.
-
-
 
 ### Execute Function Overview
 
