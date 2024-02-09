@@ -20,6 +20,12 @@ The original data used for training and validation purposes is stored in the `/D
 
 Upon completion of the fine-tuning process, the results are documented in the `/RESULTS` directory. These results provide insights into the performance and effectiveness of the fine-tuned model, serving as a valuable resource for evaluation and further refinement.
 
+## Approach and Methodology.
+
+For fine-tuning the model, a custom dataset was created through interactions with ChatGPT in the `/NOTEBOOKS` directory. This dataset was carefully designed to cover a wide range of science-related topics, ensuring the model's proficiency in generating relevant responses.
+
+Training the model involved extensive iterations, with performance evaluation conducted using the original data stored in `/DATA`. The fine-tuned model's effectiveness was measured and documented in the `/RESULTS` directory, guiding further refinement efforts.
+
 ## Starting the Chatbot Application
 
 To start the app locally, run the `script.sh` file. Additionally, the Streamlit UI can be set up using the command `streamlit run app.py`.
