@@ -1,49 +1,51 @@
 ## Demo
 ![Demo](demo.gif)
 
-## Presentation Video
+## Explanation Video
 The explanation video can be found [Here](videolink)
 
 ## NLP Chatbot Setup Details
 
 ### Chatbot Development Strategies
 
-When creating an NLP chatbot, developers have various strategies at their disposal:
+When developing an NLP chatbot, there are several strategies to consider:
 
-- **Rule-based Approach**: This method involves establishing predefined rules and patterns to govern the chatbot's responses. While simple, it may struggle with handling complex queries effectively.
+- **Rule-based Approach**: This method involves setting predefined rules and patterns to guide the chatbot's responses. While simple, it may struggle with complex queries.
 
-- **Pretrained Model Utilization**: Leveraging pretrained models like DialoGPT from Hugging Face offers a quick deployment solution with minimal training. Fine-tuning these models for specific domains can significantly enhance their performance.
+- **Pretrained Model Utilization**: Utilizing pretrained models like DialoGPT from Hugging Face offers a quick deployment solution with minimal training. Fine-tuning these models for specific domains can significantly improve their performance.
 
-- **Custom Model Training**: Training a custom model using frameworks like PyTorch or TensorFlow provides the flexibility to precisely tailor the chatbot's responses. However, it demands substantial time and resources for data collection, training, and evaluation.
+- **Custom Model Training**: Training a custom model using frameworks like PyTorch or TensorFlow allows for precise customization of the chatbot's responses. However, it requires substantial time and resources for data collection and training.
 
 ### Preferred Approach
 
-Given the task of developing a chatbot to tackle science-related inquiries, I opted for:
+For the science-related chatbot development, I chose:
 
-- **Fine-tuned Pretrained Model**: I chose to fine-tune a DialoGPT model on science-related data to ensure contextually relevant responses. This involves training the pretrained DialoGPT model on a custom dataset specifically curated for science-related queries. By fine-tuning the model, I adapt it to understand and generate responses tailored to scientific topics, ensuring accuracy and relevance in its interactions.
+- **Fine-tuned Pretrained Model**: I opted to fine-tune a DialoGPT model on science-related data. This involved training the pretrained DialoGPT model on a custom dataset curated for science-related queries. Fine-tuning ensured that the model could understand and generate responses tailored to scientific topics, enhancing accuracy and relevance.
 
 ### Execute Function Overview
 
-The `execute` function in `main.py` acts as the chatbot's core component. It analyzes user input, applies relevant rules or models, and generates appropriate responses. This function can undergo continuous refinement to enhance the chatbot's performance and accuracy.
+The `execute` function in `main.py` is crucial for the chatbot's operation. It analyzes user input, applies relevant rules or models, and generates appropriate responses. Continuous refinement of this function enhances the chatbot's performance and accuracy over time.
 
 ### Development Guidelines
 
-Throughout the development process, I adhere to the following guidelines:
+During development, I adhere to the following guidelines:
 
-- 👎 Avoid External Services: I steer clear of relying on external services like chatGPT to maintain autonomy and control over the chatbot's functionality.
+- 👎 Avoid External Services: I avoid reliance on external services like chatGPT to maintain control over the chatbot's functionality.
 
-- 👎 Originality is Key: I prioritize originality and innovation, ensuring that my solutions stand out in the field.
+- 👎 Originality is Key: I prioritize originality and innovation to ensure my chatbot stands out.
 
-- 👎 Reliability is Non-negotiable: I prioritize the reliability and robustness of my chatbot, aiming to deliver a seamless user experience without any critical failures.
+- 👎 Reliability is Non-negotiable: I prioritize reliability to deliver a seamless user experience without critical failures.
 
 ### Training and Data Insights
 
-My training process involves fine-tuning the DialoGPT model using a custom dataset crafted specifically for science-related inquiries. The Jupyter Notebook used to fine-tune the ChatGPT model in the Google Colab free tier can be found in the [`/NOTEBOOKS`](notebooks/) directory. This dataset was meticulously crafted to cover a wide range of science-related topics, ensuring the model's proficiency in generating relevant responses.
+Training involves fine-tuning the DialoGPT model using a custom dataset crafted specifically for science-related inquiries. The Jupyter Notebook used for fine-tuning can be found in the [`/NOTEBOOKS`](notebooks/) directory. This dataset was meticulously designed to cover various science-related topics, ensuring the model's proficiency.
 
-Following rigorous training and validation, the fine-tuned model is stored in the [`/MODELS`](models/) directory, ready for deployment. Additionally, the original data used for training and validation purposes is archived in the [`/DATA`](data/) directory, facilitating transparency and reproducibility.
+Following training, the fine-tuned model is stored in the [`/MODELS`](models/) directory for deployment. Additionally, original data used for training and validation is archived in the [`/DATA`](data/) directory for transparency.
 
-Upon completion of the fine-tuning process, comprehensive insights and performance metrics are documented in the [`/RESULTS`](results/) directory, guiding further optimization and refinement efforts.
+Upon completion, insights and performance metrics are documented in the [`/RESULTS`](results/) directory, guiding further improvements.
 
 ## Initiating the Chatbot Application
 
-To launch the chatbot locally, execute the `script.sh` file. Additionally, the Streamlit user interface can be accessed by running `streamlit run app.py`.
+To launch the chatbot locally, execute the `script.sh` file. Additionally, access the Streamlit user interface by running `streamlit run app.py`.
+
+Feel free to reach out if you have any questions or need further assistance!
