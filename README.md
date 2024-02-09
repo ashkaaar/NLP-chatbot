@@ -22,6 +22,14 @@ For the science-related chatbot development, I chose:
 
 - **Fine-tuned Pretrained Model**: I opted to fine-tune a DialoGPT model on science-related data. This involved training the pretrained DialoGPT model on a custom dataset curated for science-related queries. Fine-tuning ensured that the model could understand and generate responses tailored to scientific topics, enhancing accuracy and relevance.
 
+### Training and Data Insights
+
+Training involves fine-tuning the DialoGPT model using a custom dataset crafted specifically for science-related inquiries. The Jupyter Notebook used for fine-tuning can be found in the [`/NOTEBOOKS`](notebooks/) directory. This dataset was meticulously designed to cover various science-related topics, ensuring the model's proficiency.
+
+Following training, the fine-tuned model is stored in the [`/MODELS`](models/) directory for deployment. Additionally, original data used for training and validation is archived in the [`/DATA`](data/) directory for transparency.
+
+Upon completion, insights and performance metrics are documented in the [`/RESULTS`](results/) directory, guiding further improvements.
+
 ### Execute Function Overview
 
 The `execute` function in `main.py` is crucial for the chatbot's operation. It analyzes user input, applies relevant rules or models, and generates appropriate responses. Continuous refinement of this function enhances the chatbot's performance and accuracy over time.
@@ -35,14 +43,6 @@ During development, I adhere to the following guidelines:
 - 👎 Originality is Key: I prioritize originality and innovation to ensure my chatbot stands out.
 
 - 👎 Reliability is Non-negotiable: I prioritize reliability to deliver a seamless user experience without critical failures.
-
-### Training and Data Insights
-
-Training involves fine-tuning the DialoGPT model using a custom dataset crafted specifically for science-related inquiries. The Jupyter Notebook used for fine-tuning can be found in the [`/NOTEBOOKS`](notebooks/) directory. This dataset was meticulously designed to cover various science-related topics, ensuring the model's proficiency.
-
-Following training, the fine-tuned model is stored in the [`/MODELS`](models/) directory for deployment. Additionally, original data used for training and validation is archived in the [`/DATA`](data/) directory for transparency.
-
-Upon completion, insights and performance metrics are documented in the [`/RESULTS`](results/) directory, guiding further improvements.
 
 ## Initiating the Chatbot Application
 
