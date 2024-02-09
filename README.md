@@ -1,32 +1,39 @@
+## Demo
+    ![Demo](demo.gif)
+
+## Explaintion video can be found ![Here](videolink)
+
 ## NLP Chatbot Setup Details
 
 ### Chatbot Development Strategies
 
-When creating an NLP chatbot, there are several strategies to consider:
+When creating an NLP chatbot, developers have various strategies at their disposal:
 
-- **Rule-based Approach**: This strategy involves defining rules and patterns to guide the chatbot's responses. While straightforward, it may lack adaptability to handle complex queries effectively.
+- **Rule-based Approach**: This method involves establishing predefined rules and patterns to govern the chatbot's responses. While simple, it may struggle with handling complex queries effectively.
 
-- **Pretrained Model Utilization**: Leveraging pretrained models like DialoGPT from Hugging Face allows for quick deployment with minimal training. Fine-tuning such models to specific domains can significantly enhance their performance.
+- **Pretrained Model Utilization**: Leveraging pretrained models like DialoGPT from Hugging Face offers a quick deployment solution with minimal training. Fine-tuning these models for specific domains can significantly enhance their performance.
 
-- **Custom Model Training**: Training a custom model using frameworks like PyTorch or TensorFlow offers the flexibility to tailor the chatbot's responses precisely. However, it requires substantial time and resources for data collection, training, and evaluation.
+- **Custom Model Training**: Training a custom model using frameworks like PyTorch or TensorFlow provides the flexibility to precisely tailor the chatbot's responses. However, it demands substantial time and resources for data collection, training, and evaluation.
 
 ### Preferred Approach
 
-Given the task of developing a chatbot to address science-related inquiries, we opted for:
+Given the task of developing a chatbot to tackle science-related inquiries, we opted for a hybrid approach.
 
-- **Fine-tuned Pretrained Model**: We fine-tuned a DialoGPT model on science-related data to ensure contextually relevant responses.
+- **Fine-tuned Pretrained Model**: We chose to fine-tune a DialoGPT model on science-related data to ensure contextually relevant responses. This involves training the pretrained DialoGPT model on a custom dataset specifically curated for science-related queries. By fine-tuning the model, we adapt it to understand and generate responses tailored to scientific topics, ensuring accuracy and relevance in its interactions.
+
+
 
 ### Execute Function Overview
 
-The `execute` function in `main.py` serves as the backbone of our chatbot. It analyzes user input, applies relevant rules or models, and generates appropriate responses. This function undergoes continuous refinement to enhance the chatbot's performance and accuracy.
+The `execute` function in `main.py` acts as the chatbot's core component. It analyzes user input, applies relevant rules or models, and generates appropriate responses. This function undergoes continuous refinement to enhance the chatbot's performance and accuracy.
 
 ### Development Guidelines
 
-During the development process, we strictly adhere to the following guidelines:
+Throughout the development process, we adhere to the following guidelines:
 
-- 👎 Avoid External Services: We refrain from relying on external services like chatGPT to maintain autonomy and control over the chatbot's functionality.
+- 👎 Avoid External Services: We steer clear of relying on external services like chatGPT to maintain autonomy and control over the chatbot's functionality.
 
-- 👎 Originality is Key: We prioritize originality and innovation, avoiding plagiarism and ensuring that our solutions stand out in the field.
+- 👎 Originality is Key: We prioritize originality and innovation, ensuring that our solutions stand out in the field.
 
 - 👎 Reliability is Non-negotiable: We prioritize the reliability and robustness of our chatbot, aiming to deliver a seamless user experience without any critical failures.
 
