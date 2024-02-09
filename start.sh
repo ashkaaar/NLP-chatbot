@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 ./ignite.py
+streamlit run ./main.py
