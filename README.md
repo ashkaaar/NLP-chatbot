@@ -18,7 +18,7 @@ When creating an NLP chatbot, I have various strategies at my disposal:
 
 ### Preferred Approach
 
-Given the task of developing a chatbot to tackle science-related inquiries, I opted for a hybrid approach.
+Given the task of developing a chatbot to tackle science-related inquiries, I opted for:
 
 - **Fine-tuned Pretrained Model**: I chose to fine-tune a DialoGPT model on science-related data to ensure contextually relevant responses. This involves training the pretrained DialoGPT model on a custom dataset specifically curated for science-related queries. By fine-tuning the model, I adapt it to understand and generate responses tailored to scientific topics, ensuring accuracy and relevance in its interactions.
 
@@ -38,7 +38,7 @@ Throughout the development process, I adhere to the following guidelines:
 
 ### Training and Data Insights
 
-My training process involves fine-tuning the DialoGPT model using a custom dataset crafted specifically for science-related inquiries. This dataset, stored in the `/NOTEBOOKS` directory, encompasses a diverse range of conversational scenarios, ensuring the model's adaptability and effectiveness.
+My training process involves fine-tuning the DialoGPT model using a custom dataset crafted specifically for science-related inquiries. The Jupyter Notebook used to fine-tune the ChatGPT model in the Google Colab free tier can be found in the [`/NOTEBOOKS`](notebooks/) directory. This dataset was meticulously crafted to cover a wide range of science-related topics, ensuring the model's proficiency in generating relevant responses.
 
 Following rigorous training and validation, the fine-tuned model is stored in the `/MODELS` directory, ready for deployment. Additionally, the original data used for training and validation purposes is archived in the `/DATA` directory, facilitating transparency and reproducibility.
 
