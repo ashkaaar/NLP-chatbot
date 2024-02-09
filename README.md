@@ -16,3 +16,4 @@ The original data used for training and validation purposes is stored in the `/D
 
 Upon completion of the fine-tuning process, the results are documented in the `/RESULTS` directory. These results provide insights into the performance and effectiveness of the fine-tuned model, serving as a valuable resource for evaluation and further refinement.
 
+To start the app locally, run the `script.sh` file. Additionally, the Streamlit UI can be set up using the command `streamlit run app.py`.
