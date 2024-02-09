@@ -1,14 +1,14 @@
 ## Demo
 ![Demo](demo.gif)
 
-## Explanation Video
+## Presentation Video
 The explanation video can be found [Here](videolink)
 
 ## NLP Chatbot Setup Details
 
 ### Chatbot Development Strategies
 
-When creating an NLP chatbot, I have various strategies at my disposal:
+When creating an NLP chatbot, developers have various strategies at their disposal:
 
 - **Rule-based Approach**: This method involves establishing predefined rules and patterns to govern the chatbot's responses. While simple, it may struggle with handling complex queries effectively.
 
@@ -24,7 +24,7 @@ Given the task of developing a chatbot to tackle science-related inquiries, I op
 
 ### Execute Function Overview
 
-The `execute` function in `main.py` acts as the chatbot's core component. It analyzes user input, applies relevant rules or models, and generates appropriate responses. This function can undergoe continuous refinement to enhance the chatbot's performance and accuracy.
+The `execute` function in `main.py` acts as the chatbot's core component. It analyzes user input, applies relevant rules or models, and generates appropriate responses. This function can undergo continuous refinement to enhance the chatbot's performance and accuracy.
 
 ### Development Guidelines
 
@@ -40,9 +40,9 @@ Throughout the development process, I adhere to the following guidelines:
 
 My training process involves fine-tuning the DialoGPT model using a custom dataset crafted specifically for science-related inquiries. The Jupyter Notebook used to fine-tune the ChatGPT model in the Google Colab free tier can be found in the [`/NOTEBOOKS`](notebooks/) directory. This dataset was meticulously crafted to cover a wide range of science-related topics, ensuring the model's proficiency in generating relevant responses.
 
-Following rigorous training and validation, the fine-tuned model is stored in the `/MODELS` directory, ready for deployment. Additionally, the original data used for training and validation purposes is archived in the `/DATA` directory, facilitating transparency and reproducibility.
+Following rigorous training and validation, the fine-tuned model is stored in the [`/MODELS`](models/) directory, ready for deployment. Additionally, the original data used for training and validation purposes is archived in the [`/DATA`](data/) directory, facilitating transparency and reproducibility.
 
-Upon completion of the fine-tuning process, comprehensive insights and performance metrics are documented in the `/RESULTS` directory, guiding further optimization and refinement efforts.
+Upon completion of the fine-tuning process, comprehensive insights and performance metrics are documented in the [`/RESULTS`](results/) directory, guiding further optimization and refinement efforts.
 
 ## Initiating the Chatbot Application
 
