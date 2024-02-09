@@ -1,4 +1,3 @@
-```md
 ## Demo
 ![Demo](demo.gif)
 
@@ -48,4 +47,3 @@ Upon completion of the fine-tuning process, comprehensive insights and performan
 ## Initiating the Chatbot Application
 
 To launch the chatbot locally, execute the `script.sh` file. Additionally, the Streamlit user interface can be accessed by running `streamlit run app.py`.
-```
