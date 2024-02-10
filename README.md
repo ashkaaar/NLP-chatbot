@@ -1,6 +1,8 @@
 ## Demo
 ![Demo](demo.gif)
 
+Play around with the chatbot [Here](https://science-nlp-chatbot.streamlit.app/)
+
 ## Explanation Video
 The explanation video can be found [Here](videolink)
 
