@@ -1,0 +1,11 @@
+# Presentation Video Points
+1) Approach:
+
+2) Trining:
+          -Model Selection
+          -Data Preparing
+          -Training part
+          
+3) Intergration:
+
+4)Demo:
