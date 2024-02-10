@@ -10,6 +10,7 @@ openfabric-pysdk = "0.2.7"
 transformers = "^4.37.2"
 pandas = "1.3.4"
 black = "^24.1.1"
+torch = "^2.2.0"
 
 
 [tool.poetry.dev-dependencies]
