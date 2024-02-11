@@ -4,7 +4,7 @@
 Play around with the chatbot [Here](https://science-nlp-chatbot.streamlit.app/)
 
 ## Explanation Video
-The explanation video can be found [Here](videolink)
+The explanation video can be found [Here](https://www.loom.com/share/13712dbd4fc240cfaccf31f88c92ce23?sid=bc47adf7-3b66-4f34-847f-229007967dc7)
 
 ## NLP Chatbot Setup Details
 
